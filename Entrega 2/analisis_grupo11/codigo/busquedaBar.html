@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar-lladolid - Busqueda de bares</title>
+    <link href="css/busquedaBar.css" rel="stylesheet" type="text/css">
+</head>
+<!-- Color background = background-color:#ECFFFC -->
+<body>
+    <div id= "encabezado">
+        <a href="paginaPrincipal.html"><div id="logo">
+            <h1>
+                <img src="imagenes/img.png">
+            </h1>
+        </div></a>
+    
+        <div id="perfil">
+            <a href="perfil.html"><button type="button">Mi perfil</button></a>
+        </div>
+    </div>
+
+<div id="contenido">
+    <div id="opciones">
+        <p style="margin-top: 15px; margin-left: 10px; float: left">Busqueda por nombre</p>
+        <input type="text">
+        <select>
+            <option>Mayor valoracion media</option>
+            <option>Menor valoración media</option>
+            <option>A-Z</option>
+            <option>Z-A</option>
+        </select>
+        <p style="margin-top: 15px; float: right">Orden de los resultados</p>
+    </div>
+    <div id="filtros">
+        <h1>Filtros</h1>
+        <button style="margin-left: 10px">Limpiar filtros</button>
+        <h2>Valoracion media</h2>
+        <label><input type="checkbox"> Menos de 1 estrella</label><br>
+        <label><input type="checkbox"> 1-2 estrellas</label><br>
+        <label><input type="checkbox"> 2-3 estrellas</label><br>
+        <label><input type="checkbox"> 3-4 estrellas</label><br>
+        <label><input type="checkbox"> 4-5 estrellas</label><br>
+        <h2>Tipo</h2>
+        <label><input type="checkbox"> Bar-restaurante</label><br>
+        <label><input type="checkbox"> Cafetería</label><br>
+        <label><input type="checkbox"> Cervecería</label><br>
+        <label><input type="checkbox"> Club nocturno</label><br>
+        <label><input type="checkbox"> Otros</label><br>
+        <button id="aplicar">Aplicar filtros</button>
+
+
+    </div>
+    <div id="bares">
+        <div id="mapa">
+           <center><h3>Pulse en el mapa de abajo para buscar por direccion</h3></center>
+            <center><a href="Mapa.html"><img src="imagenes/mapa.png" id="imagen"></img></a></center>
+        </div>
+        <div class="bar">
+            <img src="imagenes/bartolome.png">
+            <button type="button">Añadir a favoritos</button>
+            <h2>Bar Tolomé</h2>
+            <hr>
+            <h3>Valoracion: 4.5 estrellas</h3>
+        </div>
+        <div class="bar">
+            <img src="imagenes/bartender.png">
+            <button type="button">Añadir a favoritos</button>
+            <h2>Bar Tender</h2>
+            <hr>
+            <h3>Valoracion: 4.41 estrellas</h3>
+        </div>
+        <div class="bar">
+            <a href="El tío Molonio.html"><img src="imagenes/tiomolonio.png"></a>
+            <button type="button">Añadir a favoritos</button>
+            <h2>El tio molonio</h2>
+            <hr>
+            <h3>Valoracion: 4 estrellas</h3>
+        </div>
+        <div class="bar">
+            <img src="imagenes/kuikas.png">
+            <button type="button">Añadir a favoritos</button>
+            <h2>Kuik-AS</h2>
+            <hr>
+            <h3>Valoracion: 3.5 estrellas</h3>
+        </div>
+</div>
+
+</div>
+
+</body>
+</html>

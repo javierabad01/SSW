@@ -1,0 +1,243 @@
+body {
+    margin-top:0;
+    padding-top:0;
+    height: 80%;
+}
+html {
+    height: 100%;
+}
+
+/* Estilos del encabezado */
+#encabezado {
+    width: 100%;
+    height:170px;
+    float:top;
+    width:100%;
+    position:fixed;
+    background-color:white;
+}
+
+#logo {
+    width: 80%;
+    height:150px;
+    color: purple;
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    background-color:white;
+    margin-top:10px;
+    float:left;
+ }
+
+#logo h1 {
+    margin: 0;
+ }
+
+#logo img {
+    width:350px;
+    height:150px;
+ }
+
+#perfil {
+    border: 5px;
+    height:150px;
+    float:right;
+}
+
+#perfil button {
+    border-color: purple;
+    width:100px;
+    height:100px;
+    margin:25px;
+    font-weight: bold; 
+    color:purple
+}
+
+#contenido {
+    margin-top: 170px;
+    height: 80%;
+    width:100%;
+    float:left
+}
+
+#cabeceracontenido{
+    height:50px;
+    text-align:center;
+    float:top;
+    width:100%;
+}
+
+#cabeceracontenido img{
+    margin-top: 10px;
+    height:30px;
+    width:10%;
+    float:right;
+}
+
+#cuerpocontenido{
+    width: 100%;
+    height:100%
+}
+
+#nombrebar{
+    margin-left:10px;
+    margin-top:15px;
+    border-style:solid;
+    float:left;
+}
+#p{
+    margin-right:10px;
+    margin-top:15px;
+    border-style:solid;
+    float:right;
+}
+
+#puntuar{
+    float:left;
+    margin-left:5%;
+    margin-top:5%;
+}
+
+#reseñas{
+    height:100%;
+    border-style:solid;
+    float:left;
+    width:40%;
+    overflow: scroll;
+}
+
+#reseñas .imgperfil{
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+    heigh:30px;
+    width:20%;
+}
+
+#reseñas .puntuacion{
+    float:right;
+}
+
+#reseñas .comentario{
+    margin-left:1%;
+    margin-top:3px;
+}
+
+#reseñas .h3{
+    width:50%;
+    float:left;
+}
+
+#postreseña{
+    border-style:solid;
+    height:100%;
+    float: right;
+    width:58%;
+}
+
+#postreseña #publicar{
+    float:right;
+    margin:5% 5% 0 0;
+}
+
+.gris{
+    color:grey
+}
+h3 {
+    margin-top:5%;
+    margin-bottom: 0;
+    margin-left:1%;
+
+}
+
+textarea{
+    height: 65%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#form {
+  width: 100%;
+  margin: 0 auto;
+  height: 80%;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+  
+.stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+
+}
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+}
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  margin: 0 auto;
+}
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: orange;
+}
+
+.puntuacion .stars-outer {
+    font-size: 20px;
+    display: block; /* Cambia inline-block a block */
+    margin: 0 auto; /* Centra horizontalmente */
+    width: fit-content;
+    text-align: center; /* Centra horizontalmente */
+    position: relative;
+    font-family: FontAwesome;
+
+}
+
+.puntuacion .stars-inner {
+    font-size: 20px;
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    margin: 0 auto;
+    width: fit-content; /* Ajusta al contenido */
+    transform: translateY(-50%); /* Centra verticalmente */
+}
+

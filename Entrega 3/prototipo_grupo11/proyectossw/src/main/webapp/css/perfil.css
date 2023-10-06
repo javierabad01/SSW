@@ -1,0 +1,184 @@
+/* General Website Style rules */
+body {
+    margin-top:0; 
+    padding-top:0;
+}
+
+
+/* Estilos del encabezado */
+#encabezado {
+    width: 100%;
+    height:180px;
+    position:fixed; 
+    background-color:white;
+    margin-left:5px;
+    margin-right:5px;
+    right:0;
+    left:0;
+
+ }
+ 
+ #logo {
+     width: 80%;
+     height:150px;
+     color: purple;
+     text-align: center;
+     border: 5px;
+     border-style: solid;
+     background-color:white;
+     margin-top:10px;
+     margin-bottom:10px;
+     float:left;
+ }
+ 
+ #logo h1 {
+     margin: 0;
+ }
+ 
+ #logo img {
+     width:350px; 
+     height:150px;
+ }
+ 
+ #perfil {
+     border: 5px;
+     height:150px;
+     float:right;
+ }
+ 
+#perfil button {
+     border-color: purple;
+     width:100px;
+     height:100px;
+     margin:25px;
+     font-weight: bold; 
+     color:purple
+}
+ 
+
+.divPerfil{
+    float:left;
+    width: 100%;
+    margin-top:180px;
+    color: purple;
+    text-align: center;}
+
+.imgPerfil{
+     margin-top:20px;
+     width:150px;
+     height:150px;}
+
+.div1Infor{
+    width:66%;
+    height:300px;
+    float:left;
+    margin-top:20px
+}
+
+.div2Infor{
+    width:33%;
+    height:300px;
+    float:right;
+    text-align:center;
+    margin-top:20px;
+    border-style:solid;
+    color:purple;
+}
+
+.divColeccion{
+    width:49%;
+    height:100%;
+    float:left;
+    text-align:center;
+    border-style:solid;
+    color:purple;}
+
+.colImgMolonio{
+    float:left;
+    margin-top: 6%;
+    margin-left:5%;}
+
+.divPromocionados{
+    width:49%;
+    height:100%;
+    float:left;
+    text-align:center;
+    border-style:solid;
+    color:purple;
+    margin-left:1%}
+
+.colTxtMolonio{
+    float:right;
+    margin-top:15%;
+    margin-right:12%;
+    color:SlateBlue;
+    font-size:20px}
+
+.colImgKuikas{
+    float:left;
+    margin-top: 6%;
+    margin-left:5%
+}
+
+.colTxtKuikas{
+    float:right;
+    margin-top:15%;
+    margin-right:22%;
+    color:SlateBlue;
+    font-size:20px
+}
+
+.promImgKuikas{
+    float:left;
+    margin-top: 6%;
+    margin-left:5%
+}
+
+.promTxtKuikas{
+    float:right;
+    margin-top:15%;
+    margin-right:20%;
+    color:SlateBlue;
+    font-size:20px;
+}
+.promImgMolonio{
+    float:left;
+    margin-top: 6%;
+    margin-left:5%
+}
+
+.promTxtMolonio{
+    float:right;
+    margin-top:15%;
+    margin-right:12%;
+    color:SlateBlue;
+    font-size:20px
+}
+
+.resTtlKuikas{
+    margin-top:8%;
+    text-align:left;
+    margin-left:10%;
+    color:SlateBlue;
+    font-size:20px
+}
+
+.resTtlMolonio{
+    margin-top:10%;
+    text-align:left;
+    margin-left:10%;
+    color:SlateBlue;
+    font-size:20px;
+}
+
+.resTxtKuikas{
+    text-align:left;
+    margin-left:10%;
+    margin-top:2%
+}
+
+.resTxtMolonio{
+    text-align:left;
+    margin-left:10%;
+    margin-top:2%
+}

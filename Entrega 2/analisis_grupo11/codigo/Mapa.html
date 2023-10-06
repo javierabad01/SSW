@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa</title>
+    <link href="css/mapa.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id= "encabezado">
+    <a href="paginaPrincipal.html"><div id="logo">
+        <h1>
+            <img src="imagenes/img.png">
+        </h1>
+    </div></a>
+
+    <div id="perfil">
+        <a href="perfil.html"><button type="button">Mi perfil</button></a>
+    </div>
+</div>
+
+<div id="contenido">
+    <div style = "float:bottom; margin-top:25px">
+        <div id="opciones">
+            <h4 align="center">BARES POR LOCALIZACIÓN</h4>
+            <p align = "center">Seleccione el radio de busqueda</p>
+            <div id="slider">
+                <span>100m</span>
+                <input type="range" style="text-align:center" min="1" max="100" value="50" class="slider" id="myRange">
+                <span>2km</span>
+            </div>
+
+            <form align = "center">
+                Seleccione un bar<br>
+                <select size = "10">
+                    <option value="1">Kuikas</option>
+                    <option value="2">El Tio Molonio</option>
+                    <option value="3">Bar Celona</option>
+                    <option value="4">Bar Tolome</option>
+                </select>
+                <br>
+                <input type="submit" value="Enviar selección">
+            </form>
+        </div>
+        <div id="mapa">
+            <img src="imagenes/map.png">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
