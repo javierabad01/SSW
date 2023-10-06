@@ -1,0 +1,134 @@
+/* Estilos de la sección "Promociona tu bar" */
+#promociona {
+    float: left;
+    margin-top: 175px;
+    height: 300px;
+    width: 100%;
+}
+
+#titulo {
+    text-align: center;
+    width: 100%
+}
+
+#bar {
+    width: 320px;
+    text-align: right;
+    float:left;
+}
+
+#bar h3 {
+    display: inline-block;
+}
+
+#bar input[type="text"] {
+    margin-bottom: 10px;
+}
+
+#mapa {
+    width: max-content;
+    float:right;
+    margin-right:20px;
+    overflow: hidden;
+
+}
+
+#mapa h3 {
+    display: inline-block;
+    margin-left:50px;
+    margin-right:20px;
+    text-overflow: ellipsis;
+}
+#mapa img {
+    width: 200px; 
+    height:200px;
+    vertical-align: middle;
+        
+}
+#map {
+    width: 200px; 
+    height:200px;
+    vertical-align: middle;
+      transition: transform 0.3s ease-out;
+      float:right;
+
+}
+
+#map:hover {
+  transform: scale(1.2);
+  height: 400px;
+  width: 400px;
+  margin-left:20px;
+}
+
+
+/* Estilos de la sección "Tipos y características del bar" */
+#tipos {
+    width: 60%;
+    float:left;
+}
+
+#tipos1 {
+    width: 48%;
+    float:left;
+}
+
+#tipos2 {
+    width: 47%;
+    float:right;
+}
+
+#tipos h3 {
+    margin-bottom: 10px;
+}
+
+#tipos input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+#caracteristicas {
+    width: 36%;
+    float:right;
+    padding-left: 20px;
+}
+
+#caracteristicas h3 {
+    margin-bottom: 10px;
+}
+
+#imagenes {
+    width: 90%;
+    height:70%;
+    vertical-align: middle;
+    border-style:solid;
+}
+#enviar {
+    margin-top: 20px;
+    margin-right:10px;
+    margin-bottom: 20px;
+    float: right;
+    width: 100%;
+    height: 20px;
+    text-align:center;
+   
+}
+
+#enviar button {
+    border-color:blueviolet;
+    border: 5px;
+    font-size:medium;
+    border-style:outset;
+}
+
+#dropzone {
+  width: 300px;
+  height: 200px;
+  border: 2px dashed #aaa;
+  text-align: center;
+  line-height: 200px;
+}
+
+#dropzone.dragover {
+  background-color: #eee;
+}
+
